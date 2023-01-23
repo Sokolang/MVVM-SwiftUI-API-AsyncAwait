@@ -9,13 +9,6 @@ import XCTest
 
 final class BeersUITests: XCTestCase {
     
-  
-    func testBeerListTap() throws {
-        let beerListTitle = app.staticTexts["beerList"]
-        XCTAssert(beerListTitle.
-    }
-    
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -33,7 +26,7 @@ final class BeersUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
